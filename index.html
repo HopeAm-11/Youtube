@@ -2,276 +2,251 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
-        integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Youtube</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
+		integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
 </head>
 
 <body>
-    <!--Primary header-->
-    <header>
-        <nav class="header-left">
-            <i class="bi bi-list"></i>
-            <img src="images/youtube.png" alt="an icon of youtube log">
-        </nav>
+	<!--Primary header-->
+	<header class="flex-b">
+		<nav class="header-left flex-e">
+			<i class="bi bi-list"></i>
+			<img src="images/youtube.png" alt="an icon of youtube logo">
+		</nav>
+		<div class="header-mid flex-e">
+			<div class="h-search">
+				<input class="in-search" type="search" id="seach" name="seach" placeholder="search">
+				<button class="bi bi-search"></button>
+			</div>
+			<i class="bi bi-mic"></i>
+		</div>
+		<div class="header-right flex-e">
+			<i class="bi bi-camera-video"></i>
+			<i class="bi bi-grid-3x3-gap"></i>
+			<i class="bi bi-bell"></i>
+			<i class="bi bi-person-circle"></i>
+		</div>
+	</header>
+	<!--Grid container-->
+	<div class="grid-container">
+		<!--main container-->
+		<main class="grid-left">
+			<iframe src="https://www.youtube.com/embed/yUjPFCosmNA" title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+			<!--primary info-->
+			<nav class="primary-info flex-a">
+				<ul class="left-links flex-b">
+					<li><a href="#">#TAOISM</a></li>
+					<li><a href="#">#TAO </a></li>
+					<li><a href="#"> #LAOTZU</a></li>
+				</ul>
+				<h1 class="info-para">TAOISM | Be Like Water</h1>
+			</nav>
+			<!--secondary info-->
+			<div class="secondary-info flex-b">
+				<p class="views-p">941,672 views Oct 1, 2020</p>
+				<div class="icons flex-b">
+					<i class="bi bi-hand-thumbs-up"></i>
+					<p>40K</p>
+					<i class="bi bi-hand-thumbs-down"></i>
+					<p>DISLIKE</p>
+					<img class="forward-img" src="/images/forword.png" alt="" srcset="">
+					<p>SHARE</p>
+					<img class="line-img" src="images/line+.png" alt="">
+					<p>SAVE</p>
+					<i class="bi bi-three-dots "></i>
+				</div>
+			</div>
+			<!--channel container-->
+			<div class="channel-container">
+				<i class="bi bi-person-circle"></i>
+				<article class="channel-info">
+					<h2> Einzelgänger</h2>
+					<p class="gray">1.05M subscribers</p>
+					<p>Many people are hijacked by the rigidity of their minds.
+						Thinking in categories
+						and fixed
+						ideas can be a great crutch for survival, as it creates clarity in a chaotic universe.
+						But thinking too rigidly also has its negative consequences. Seeing the world in
+						categories and separate boxes limits our perception, so we become stuck in our ideas of
+						how things are, or supposed to be.</p>
+					<p class="gray">show more</p>
+				</article>
+				<button class="sub-btn">subscribe</button>
+			</div>
+			<!-- primary info-->
+			<article class="user-comment">
+				<div class="comment-info-primary flex-b">
+					<p> 1,204 Comments</p>
+					<i class="bi bi-filter-left"></i>
+					<p>sort by</p>
+				</div>
+				<!-- secondary info-->
+				<div class="comment-info-secondary flex-b">
+					<i class="bi bi-person-circle"></i>
+					<input class="in-comment" type="text" name="" id="" placeholder="add a public comment">
+				</div>
+				<!--user comment #1-->
+				<div class="comments flex-b">
+					<i class="bi bi-person-circle circle"></i>
+					<article class="comment-right flex-b">
+						<div class="year flex-b">
+							<p>Question Everything — Thought Provoking Ideas</p>
+							<p class="gray">1 year ago</p>
+						</div>
+						<p>“If you are the smartest person in the room, then you are in the wrong room.”
+							--Confucius</p>
+						<div class="flex-b comment-icons">
+							<i class="bi bi-hand-thumbs-up "></i>
+							<p class="gray">40K</p>
+							<i class="bi bi-hand-thumbs-down"></i>
+							<p class="gray">Replay</p>
+						</div>
+						<div class="flex-b blue">
+							<i class="bi bi-caret-down-fill"></i>
+							<p>View 20 replies</p>
+						</div>
+					</article>
+				</div>
+				<!--user comment #2-->
+				<article class="comments flex-b">
+					<div class="comment-left">
+						<i class="bi bi-person-circle circle"></i>
+					</div>
+					<div class="comment-right flex-b">
+						<div class="year flex-b">
+							<p>Question Everything — Thought Provoking Ideas</p>
+							<p class="gray">1 year ago</p>
+						</div>
+						<p>“If you are the smartest person in the room, then you are in the wrong room.”
+							--Confucius</p>
+						<div class="flex-b comment-icons">
+							<i class="bi bi-hand-thumbs-up "></i>
+							<p class="gray">40K</p>
+							<i class="bi bi-hand-thumbs-down"></i>
+							<p class="gray">Replay</p>
+						</div>
+						<div class="flex-b blue">
+							<i class="bi bi-caret-down-fill"></i>
+							<p>View 20 replies</p>
+						</div>
+					</div>
+				</article>
+				<!--user comment #3-->
+				<article class="comments flex-b">
+					<div class="comment-left">
+						<i class="bi bi-person-circle circle"></i>
+					</div>
+					<div class="comment-right flex-b">
+						<div class="year flex-b">
+							<p>Question Everything — Thought Provoking Ideas</p>
+							<p class="gray">1 year ago</p>
+						</div>
+						<p>“If you are the smartest person in the room, then you are in the wrong room.”
+							--Confucius</p>
+						<div class="flex-b comment-icons">
+							<i class="bi bi-hand-thumbs-up "></i>
+							<p class="gray">40K</p>
+							<i class="bi bi-hand-thumbs-down"></i>
+							<p class="gray">Replay</p>
+						</div>
+						<div class="flex-b blue">
+							<i class="bi bi-caret-down-fill"></i>
+							<p>View 20 replies</p>
+						</div>
+					</div>
+				</article>
+			</article>
+		</main>
+		<!--aside container -->
+		<aside class="aside flex-b">
+			<nav class="nav-side">
+				<ul class="side-links">
+					<li><a class="a all" href="">All</a></li>
+					<li><a class="a" href="">lao tse</a></li>
+					<li><a class="a" href="">listenable</a></li>
+					<li><a class="a" href="">related</a></li>
+				</ul>
+			</nav>
+			<div class="thumbnail-container">
+				<article class="thum1">
+					<img class="thum-img" src="images/thum.png" alt="" srcset="">
+					<section class="thum-p">
+						<h2> What I learned from 100 days of rejection | Jia Jiang </h2>
+						<p>TED</p>
+						<p> 4.3M views 4 years ago</p>
+					</section>
+				</article>
+			</div>
+			<div class="thumbnail-container">
+				<article class="thum1">
+					<img class="thum-img" src="images/thum.png" alt="" srcset="">
+					<section class="thum-p">
+						<h2> What I learned from 100 days of rejection | Jia Jiang </h2>
+						<p>TED</p>
+						<p> 4.3M views 4 years ago</p>
+					</section>
+				</article>
+			</div>
+			<div class="thumbnail-container">
+				<article class="thum1">
+					<img class="thum-img" src="images/thum.png" alt="" srcset="">
+					<section class="thum-p">
+						<h2> What I learned from 100 days of rejection | Jia Jiang </h2>
+						<p>TED</p>
+						<p> 4.3M views 4 years ago</p>
+					</section>
+				</article>
+			</div>
+			<div class="thumbnail-container">
+				<article class="thum1">
+					<img class="thum-img" src="images/thum.png" alt="" srcset="">
+					<section class="thum-p">
+						<h2> What I learned from 100 days of rejection | Jia Jiang </h2>
+						<p>TED</p>
+						<p> 4.3M views 4 years ago</p>
+					</section>
+				</article>
+			</div>
+			<div class="thumbnail-container">
+				<article class="thum1">
+					<img class="thum-img" src="images/thum.png" alt="" srcset="">
+					<section class="thum-p">
+						<h2> What I learned from 100 days of rejection | Jia Jiang </h2>
+						<p>TED</p>
+						<p> 4.3M views 4 years ago</p>
+					</section>
+				</article>
+			</div>
+			<div class="thumbnail-container">
+				<article class="thum1">
+					<img class="thum-img" src="images/thum.png" alt="" srcset="">
+					<section class="thum-p">
+						<h2> What I learned from 100 days of rejection | Jia Jiang </h2>
+						<p>TED</p>
+						<p> 4.3M views 4 years ago</p>
+					</section>
+				</article>
+			</div>
+			<div class="thumbnail-container">
+				<article class="thum1">
+					<img class="thum-img" src="images/thum.png" alt="" srcset="">
+					<section class="thum-p">
+						<h2> What I learned from 100 days of rejection | Jia Jiang </h2>
+						<p>TED</p>
+						<p> 4.3M views 4 years ago</p>
+					</section>
+				</article>
+			</div>
 
-        <div class="header-middle">
-            <div class=header-mid-2>
-                <div class="header-middle-stick">
-                    <input class="in-search" type="search" id="seach" name="seach" placeholder="search">
-                    <button class="search bi bi-search"></button>
-                </div>
-                <i class="bi bi-mic"></i>
-            </div>
-            <div class="header-right">
-                <i class="bi bi-camera-video"></i>
-                <i class="bi bi-grid-3x3-gap"></i>
-                <i class="bi bi-bell"></i>
-                <i class="bi bi-person-circle"></i>
-            </div>
-    </header>
-    <!--grid left and right sides-->
-    <div class="grid-container">
-        <div class="grid-left">
-            <iframe src="https://www.youtube.com/embed/yUjPFCosmNA" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="grid-left-container">
-                <div class="grid-left-first">
-                    <ul class="links">
-                        <li><a href="#">#TAOISM</a></li>
-                        <li><a href="#">#TAO </a></li>
-                        <li><a href="#"> #LAOTZU</a></li>
-                    </ul>
-                    <p class="p-main">TAOISM | Be Like Water</p>
-                </div>
-                <div class="grid-left-views">
-                    <p>941,672 views Oct 1, 2020</p>
-                    <div class="social">
-                        <div class="flex">
-                            <i class="bi bi-hand-thumbs-up"></i>
-                            <p>40K</p>
-                        </div>
-                        <div class="flex">
-                            <i class="bi bi-hand-thumbs-down"></i>
-                            <p>DISLIKE</p>
-                        </div>
-                        <div class="flex">
-                            <img  class="forward-img"src="/images/forword.png" alt="" srcset="">
-                            <p>SHARE</p>
-                        </div>
-                        <div class="flex">
-                            <img class="line-img"src="images/line+.png" alt="">
-                            <p>SAVE</p>
-                        </div>
-                        <i class="bi bi-three-dots "></i>
-                    </div>
-                </div>
-                <!--subcribe section-->
-                <div class="container-user-info">
-                    <div class="user-info-left">
-                        <i class="bi bi-person-circle"></i>
-                        <div class="user-info">
-                            <div class="user-info-subs">
-                                <p> Einzelgänger</p>
-                                <p>1.05M subscribers</p>
-                            </div>
-                            <p class="p">Many people are hijacked by the rigidity of their minds. Thinking in categories
-                                and fixed
-                                ideas can be a great crutch for survival, as it creates clarity in a chaotic universe.
-                                But thinking too rigidly also has its negative consequences. Seeing the world in
-                                categories and separate boxes limits our perception, so we become stuck in our ideas of
-                                how things are, or supposed to be.</p>
-                            <p>show more</p>
-                        </div>
-                        <div class="sub-btn">
-                            <button>subscribe</button>
-                        </div>
-                    </div>
-
-
-                </div>
-                <!--user comment-->
-                <div class="user-comment">
-                    <p> 1,204 Comments</p>
-                    <div class="flex">
-                        <i class="bi bi-filter-left"></i>
-                        <p>sort by</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="users-comments  ">
-                <i class="bi bi-person-circle"></i>
-                <input class="in-comment" type="text" name="" id="" placeholder="add a public comment">
-            </div>
-            <div class="container-comment">
-                <div class="comments">
-                    <i class="bi bi-person-circle circle"></i>
-                    <div class="comment-text-container">
-                        <div class="comment-text">
-                            <p>Question Everything — Thought Provoking Ideas</p>
-                            <p>1 year ago</p>
-                        </div>
-                        <p>“If you are the smartest person in the room, then you are in the wrong room.”
-                            --Confucius</p>
-                        <div class="flex-con">
-                            <i class="bi bi-hand-thumbs-up"></i>
-                            <p>40K</p>
-                            <i class="bi bi-hand-thumbs-down"></i>
-                            <p>Replay</p>
-                        </div>
-                        <div class="flex-con">
-                            <i class="bi bi-caret-down-fill"></i>
-                            <p>View 20 replies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="comments">
-                    <i class="bi bi-person-circle circle"></i>
-                    <div class="comment-text-container">
-                        <div class="comment-text">
-                            <p>Question Everything — Thought Provoking Ideas</p>
-                            <p>1 year ago</p>
-                        </div>
-                        <p>“If you are the smartest person in the room, then you are in the wrong room.”
-                            --Confucius</p>
-                        <div class="flex-con">
-                            <i class="bi bi-hand-thumbs-up"></i>
-                            <p>40K</p>
-                            <i class="bi bi-hand-thumbs-down"></i>
-                            <p>Replay</p>
-                        </div>
-                        <div class="flex-con">
-                            <i class="bi bi-caret-down-fill"></i>
-                            <p>View 20 replies</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="grid-right">
-
-            <div class="side-nav">
-                <ul class="side-navs">
-                    <li><a href="">All</a></li>
-                    <li><a href="">lao tse</a></li>
-                    <li><a href="">listenable</a></li>
-                    <li><a href="">related</a></li>
-                </ul>
-            </div>
-            <div class="thumbnail-container">
-                <div class="thum1">
-                    <img class="thum-img" src="images/thum.png" alt="" srcset="">
-
-                    <div class="thum-p">
-                        <p> What I learned from 100 days of rejection | Jia Jiang </p>
-                        <p>TED</p>
-                        <p> 4.3M views 4 years ago</p>
-                    </div>
-
-
-                </div>
-
-
-            </div>
-
-            <div class="thumbnail-container">
-                <div class="thum1">
-                    <img class="thum-img" src="images/thum.png" alt="" srcset="">
-
-                    <div class="thum-p">
-                        <p> What I learned from 100 days of rejection | Jia Jiang </p>
-                        <p>TED</p>
-                        <p> 4.3M views 4 years ago</p>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="thumbnail-container">
-                <div class="thum1">
-                    <img class="thum-img" src="images/thum.png" alt="" srcset="">
-
-                    <div class="thum-p">
-                        <p> What I learned from 100 days of rejection | Jia Jiang </p>
-                        <p>TED</p>
-                        <p> 4.3M views 4 years ago</p>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="thumbnail-container">
-                <div class="thum1">
-                    <img class="thum-img" src="images/thum.png" alt="" srcset="">
-
-                    <div class="thum-p">
-                        <p> What I learned from 100 days of rejection | Jia Jiang </p>
-                        <p>TED</p>
-                        <p> 4.3M views 4 years ago</p>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="thumbnail-container">
-                <div class="thum1">
-                    <img class="thum-img" src="images/thum.png" alt="" srcset="">
-
-                    <div class="thum-p">
-                        <p> What I learned from 100 days of rejection | Jia Jiang </p>
-                        <p>TED</p>
-                        <p> 4.3M views 4 years ago</p>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="thumbnail-container">
-                <div class="thum1">
-                    <img class="thum-img" src="images/thum.png" alt="" srcset="">
-
-                    <div class="thum-p">
-                        <p> What I learned from 100 days of rejection | Jia Jiang </p>
-                        <p>TED</p>
-                        <p> 4.3M views 4 years ago</p>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="thumbnail-container">
-                <div class="thum1">
-                    <img class="thum-img" src="images/thum.png" alt="" srcset="">
-
-                    <div class="thum-p">
-                        <p> What I learned from 100 days of rejection | Jia Jiang </p>
-                        <p>TED</p>
-                        <p> 4.3M views 4 years ago</p>
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-
-
-    </div>
-
-    </div>
-
-    </div>
-
-    </div>
-
+		</aside>
+	</div>
 </body>
 
 </html>
